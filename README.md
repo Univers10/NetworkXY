@@ -2,6 +2,10 @@
 
 Application Android pour gérer et visualiser les objets connectés dans un appartement.
 
+## Télécharger l'APK
+
+[![Télécharger APK](https://img.shields.io/badge/Télécharger-APK-green?style=for-the-badge&logo=android)](https://github.com/Univers10/NetworkXY2/releases/latest/download/NetworkXY2.apk)
+
 ## Fonctionnalités
 
 ### Menu Principal
