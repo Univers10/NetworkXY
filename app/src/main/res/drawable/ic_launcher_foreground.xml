@@ -1,0 +1,55 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Connection lines between nodes -->
+    <path
+        android:pathData="M54,34L34,68"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFF"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M54,34L74,68"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFF"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M34,68L74,68"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFF"
+        android:fillColor="#00000000" />
+
+    <!-- WiFi arcs at top node -->
+    <path
+        android:pathData="M48,28 Q54,22 60,28"
+        android:strokeWidth="2"
+        android:strokeColor="#BBDEFB"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M45,24 Q54,16 63,24"
+        android:strokeWidth="2"
+        android:strokeColor="#90CAF9"
+        android:fillColor="#00000000" />
+
+    <!-- Top node (router) -->
+    <path
+        android:pathData="M54,34m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Bottom-left node -->
+    <path
+        android:pathData="M34,68m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Bottom-right node -->
+    <path
+        android:pathData="M74,68m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Center dot accent -->
+    <path
+        android:pathData="M54,57m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"
+        android:fillColor="#90CAF9" />
+</vector>

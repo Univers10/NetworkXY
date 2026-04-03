@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_objects"
+        android:title="@string/menu_objects"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/menu_mode_view"
+                android:title="@string/mode_view"
+                android:icon="@drawable/ic_visibility" />
+            <item
+                android:id="@+id/menu_mode_add_object"
+                android:title="@string/mode_add_object"
+                android:icon="@drawable/ic_add_circle" />
+            <item
+                android:id="@+id/menu_mode_add_connection"
+                android:title="@string/mode_add_connection"
+                android:icon="@drawable/ic_link" />
+            <item
+                android:id="@+id/menu_mode_edit"
+                android:title="@string/mode_edit"
+                android:icon="@drawable/ic_edit" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_actions"
+        android:title="@string/menu_actions"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/menu_select_floor_plan"
+                android:title="@string/menu_select_floor_plan" />
+            <item
+                android:id="@+id/menu_save"
+                android:title="@string/menu_save" />
+            <item
+                android:id="@+id/menu_load"
+                android:title="@string/menu_load" />
+            <item
+                android:id="@+id/menu_email"
+                android:title="@string/menu_email" />
+            <item
+                android:id="@+id/menu_reset"
+                android:title="@string/menu_reset" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_filter"
+        android:title="@string/menu_filter"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_stats"
+        android:title="@string/menu_stats"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_language"
+        android:title="@string/menu_language"
+        app:showAsAction="never" />
+
+</menu>

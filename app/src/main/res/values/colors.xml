@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material 3 Color Scheme – Soft Tech Slate -->
+    <color name="md_theme_primary">#3B6CB4</color>
+    <color name="md_theme_on_primary">#FFFFFF</color>
+    <color name="md_theme_primary_container">#DAEAFF</color>
+    <color name="md_theme_on_primary_container">#0F2B4D</color>
+
+    <color name="md_theme_secondary">#546E7A</color>
+    <color name="md_theme_on_secondary">#FFFFFF</color>
+    <color name="md_theme_secondary_container">#D7E8EF</color>
+    <color name="md_theme_on_secondary_container">#1B2D35</color>
+
+    <color name="md_theme_tertiary">#5C8A6F</color>
+    <color name="md_theme_on_tertiary">#FFFFFF</color>
+    <color name="md_theme_tertiary_container">#D4EDDE</color>
+    <color name="md_theme_on_tertiary_container">#0F2B1A</color>
+
+    <color name="md_theme_error">#C62828</color>
+    <color name="md_theme_on_error">#FFFFFF</color>
+
+    <color name="md_theme_background">#F5F7FA</color>
+    <color name="md_theme_on_background">#1C1E21</color>
+    <color name="md_theme_surface">#F8F9FC</color>
+    <color name="md_theme_on_surface">#1C1E21</color>
+    <color name="md_theme_surface_variant">#E4E7ED</color>
+    <color name="md_theme_on_surface_variant">#444952</color>
+    <color name="md_theme_outline">#8D919A</color>
+
+    <!-- Canvas -->
+    <color name="canvas_background">#F0F2F6</color>
+    <color name="canvas_grid_dot">#D4D8E0</color>
+
+    <!-- Status colors -->
+    <color name="status_online">#43A047</color>
+    <color name="status_offline">#EF5350</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

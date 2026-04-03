@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">NetworkXY</string>
+    <string name="app_title">Network Joel ATTITSO/Gaelle SEKONGO</string>
+    
+    <string name="menu_reset">Réinitialiser</string>
+    <string name="menu_save">Sauvegarder</string>
+    <string name="menu_load">Charger</string>
+    <string name="menu_email">Envoyer par mail</string>
+    <string name="menu_objects">Objets</string>
+    <string name="menu_actions">Actions</string>
+    <string name="menu_select_floor_plan">Choisir le plan</string>
+    
+    <string name="mode_view">Visualisation</string>
+    <string name="mode_add_object">Ajouter objet</string>
+    <string name="mode_add_connection">Ajouter connexion</string>
+    <string name="mode_edit">Modifier</string>
+    
+    <string name="object_label">Étiquette de l\'objet</string>
+    <string name="object_label_hint">Nom de l\'objet</string>
+    <string name="default_object_label">Objet</string>
+    <string name="connection_label">Étiquette de la connexion</string>
+    <string name="connection_label_hint">Nom de la connexion</string>
+    
+    <string name="add_object">Ajouter un objet</string>
+    <string name="edit_object">Modifier l\'objet</string>
+    <string name="add_connection">Ajouter une connexion</string>
+    <string name="edit_connection">Modifier la connexion</string>
+    
+    <string name="delete">Supprimer</string>
+    <string name="modify">Modifier</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuler</string>
+    
+    <string name="color">Couleur</string>
+    <string name="thickness">Épaisseur</string>
+    
+    <string name="color_red">Rouge</string>
+    <string name="color_green">Vert</string>
+    <string name="color_blue">Bleu</string>
+    <string name="color_orange">Orange</string>
+    <string name="color_cyan">Cyan</string>
+    <string name="color_magenta">Magenta</string>
+    <string name="color_black">Noir</string>
+    
+    <string name="confirm_delete">Confirmer la suppression</string>
+    <string name="confirm_delete_object">Voulez-vous vraiment supprimer cet objet et toutes ses connexions ?</string>
+    <string name="confirm_delete_connection">Voulez-vous vraiment supprimer cette connexion ?</string>
+    
+    <string name="saved">Réseau sauvegardé</string>
+    <string name="loaded">Réseau chargé</string>
+    <string name="error_save">Erreur lors de la sauvegarde</string>
+    <string name="error_load">Erreur lors du chargement</string>
+    <string name="no_saved_network">Aucun réseau sauvegardé</string>
+    
+    <string name="email_subject">Mon réseau domestique</string>
+    <string name="share_network">Partager le réseau</string>
+    
+    <string name="floor_plan_1">Plan 1</string>
+    <string name="floor_plan_2">Plan 2</string>
+    <string name="floor_plan_3">Plan 3</string>
+    <string name="floor_plan_4">Plan 4</string>
+    
+    <string name="connection_exists">Une connexion existe déjà entre ces objets</string>
+    <string name="connection_failed">Impossible de créer la connexion</string>
+    
+    <string name="select_mode">Sélectionner un mode</string>
+
+    <string name="object_type">Type d\'appareil</string>
+    <string name="type_routeur">Routeur</string>
+    <string name="type_tv">TV</string>
+    <string name="type_ordinateur">Ordinateur</string>
+    <string name="type_smartphone">Smartphone</string>
+    <string name="type_tablette">Tablette</string>
+    <string name="type_imprimante">Imprimante</string>
+    <string name="type_enceinte">Enceinte</string>
+    <string name="type_camera">Caméra</string>
+    <string name="type_autre">Autre</string>
+
+    <string name="status_online">En ligne</string>
+    <string name="status_offline">Hors ligne</string>
+
+    <string name="connection_type">Type de connexion</string>
+    <string name="conn_type_wifi">WiFi</string>
+    <string name="conn_type_ethernet">Ethernet</string>
+    <string name="conn_type_bluetooth">Bluetooth</string>
+    <string name="conn_type_usb">USB</string>
+
+    <string name="color_wifi">Bleu WiFi</string>
+    <string name="color_ethernet">Vert Ethernet</string>
+    <string name="color_bluetooth">Violet Bluetooth</string>
+    <string name="color_usb">Orange USB</string>
+
+    <string name="menu_stats">Statistiques réseau</string>
+    <string name="stats_title">Tableau de bord réseau</string>
+    <string name="stats_devices_section">Appareils</string>
+    <string name="stats_connections_section">Connexions</string>
+    <string name="stats_total_devices">Total : %d appareil(s)</string>
+    <string name="stats_online">En ligne : %d</string>
+    <string name="stats_offline">Hors ligne : %d</string>
+    <string name="stats_total_connections">Total : %d connexion(s)</string>
+    <string name="stats_empty">Aucun appareil sur le réseau</string>
+
+    <string name="confirm_reset_detail">Supprimer %d appareil(s) et %d connexion(s) ?</string>
+    <string name="reset_done">Réseau réinitialisé</string>
+
+    <string name="menu_export_json">Exporter JSON</string>
+    <string name="menu_import_json">Importer JSON</string>
+    <string name="menu_export_png">Exporter PNG</string>
+    <string name="export_json_share">Partager le réseau (JSON)</string>
+    <string name="export_json_success">JSON exporté avec succès</string>
+    <string name="export_json_empty">Aucun réseau à exporter</string>
+    <string name="import_json_success">Réseau importé (%d appareils, %d connexions)</string>
+    <string name="import_json_error">Erreur lors de l\'import du fichier JSON</string>
+    <string name="import_json_confirm">Importer ce réseau ? Le réseau actuel sera remplacé.</string>
+    <string name="export_png_success">Image PNG exportée</string>
+    <string name="export_png_share">Partager l\'image du réseau</string>
+
+    <string name="reset_zoom">Réinitialiser le zoom</string>
+
+    <string name="menu_filter">Rechercher / Filtrer</string>
+    <string name="filter_title">Rechercher et filtrer</string>
+    <string name="filter_search_hint">Rechercher un appareil…</string>
+    <string name="filter_status">Statut</string>
+    <string name="filter_connection_type">Type de connexion</string>
+    <string name="filter_all">Tous</string>
+    <string name="filter_clear">Effacer les filtres</string>
+    <string name="filter_result_count">%d appareil(s) correspondant(s)</string>
+
+    <string name="menu_language">Langue / Language</string>
+    <string name="language_french">Français</string>
+    <string name="language_english">English</string>
+    <string name="language_changed">Langue changée, redémarrage…</string>
+
+    <string name="navigation_guide_title">Navigation du plan</string>
+    <string name="navigation_guide_scroll">Défilez avec deux doigts</string>
+    <string name="navigation_guide_zoom">Pincez pour zoomer/dézoomer</string>
+    <string name="navigation_guide_reset">Bouton pour réinitialiser le zoom</string>
+    <string name="navigation_guide_got_it">J\'ai compris</string>
+</resources>

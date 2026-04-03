@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">NetworkXY</string>
+    <string name="app_title">Network Joel ATTITSO/Gaelle SEKONGO</string>
+    
+    <string name="menu_reset">Reset</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_load">Load</string>
+    <string name="menu_email">Send by email</string>
+    <string name="menu_objects">Objects</string>
+    <string name="menu_actions">Actions</string>
+    <string name="menu_select_floor_plan">Select floor plan</string>
+    
+    <string name="mode_view">View</string>
+    <string name="mode_add_object">Add object</string>
+    <string name="mode_add_connection">Add connection</string>
+    <string name="mode_edit">Edit</string>
+    
+    <string name="object_label">Object label</string>
+    <string name="object_label_hint">Object name</string>
+    <string name="default_object_label">Object</string>
+    <string name="connection_label">Connection label</string>
+    <string name="connection_label_hint">Connection name</string>
+    
+    <string name="add_object">Add an object</string>
+    <string name="edit_object">Edit object</string>
+    <string name="add_connection">Add a connection</string>
+    <string name="edit_connection">Edit connection</string>
+    
+    <string name="delete">Delete</string>
+    <string name="modify">Modify</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    
+    <string name="color">Color</string>
+    <string name="thickness">Thickness</string>
+    
+    <string name="color_red">Red</string>
+    <string name="color_green">Green</string>
+    <string name="color_blue">Blue</string>
+    <string name="color_orange">Orange</string>
+    <string name="color_cyan">Cyan</string>
+    <string name="color_magenta">Magenta</string>
+    <string name="color_black">Black</string>
+    
+    <string name="confirm_delete">Confirm deletion</string>
+    <string name="confirm_delete_object">Do you really want to delete this object and all its connections?</string>
+    <string name="confirm_delete_connection">Do you really want to delete this connection?</string>
+    
+    <string name="saved">Network saved</string>
+    <string name="loaded">Network loaded</string>
+    <string name="error_save">Error saving</string>
+    <string name="error_load">Error loading</string>
+    <string name="no_saved_network">No saved network</string>
+    
+    <string name="email_subject">My home network</string>
+    <string name="share_network">Share network</string>
+    
+    <string name="floor_plan_1">Plan 1</string>
+    <string name="floor_plan_2">Plan 2</string>
+    <string name="floor_plan_3">Plan 3</string>
+    <string name="floor_plan_4">Plan 4</string>
+    
+    <string name="connection_exists">A connection already exists between these objects</string>
+    <string name="connection_failed">Cannot create connection</string>
+    
+    <string name="select_mode">Select mode</string>
+
+    <string name="object_type">Device type</string>
+    <string name="type_routeur">Router</string>
+    <string name="type_tv">TV</string>
+    <string name="type_ordinateur">Computer</string>
+    <string name="type_smartphone">Smartphone</string>
+    <string name="type_tablette">Tablet</string>
+    <string name="type_imprimante">Printer</string>
+    <string name="type_enceinte">Speaker</string>
+    <string name="type_camera">Camera</string>
+    <string name="type_autre">Other</string>
+
+    <string name="status_online">Online</string>
+    <string name="status_offline">Offline</string>
+
+    <string name="connection_type">Connection type</string>
+    <string name="conn_type_wifi">WiFi</string>
+    <string name="conn_type_ethernet">Ethernet</string>
+    <string name="conn_type_bluetooth">Bluetooth</string>
+    <string name="conn_type_usb">USB</string>
+
+    <string name="color_wifi">WiFi Blue</string>
+    <string name="color_ethernet">Ethernet Green</string>
+    <string name="color_bluetooth">Bluetooth Purple</string>
+    <string name="color_usb">USB Orange</string>
+
+    <string name="menu_stats">Network statistics</string>
+    <string name="stats_title">Network Dashboard</string>
+    <string name="stats_devices_section">Devices</string>
+    <string name="stats_connections_section">Connections</string>
+    <string name="stats_total_devices">Total: %d device(s)</string>
+    <string name="stats_online">Online: %d</string>
+    <string name="stats_offline">Offline: %d</string>
+    <string name="stats_total_connections">Total: %d connection(s)</string>
+    <string name="stats_empty">No devices on the network</string>
+
+    <string name="confirm_reset_detail">Delete %d device(s) and %d connection(s)?</string>
+    <string name="reset_done">Network reset</string>
+
+    <string name="menu_export_json">Export JSON</string>
+    <string name="menu_import_json">Import JSON</string>
+    <string name="menu_export_png">Export PNG</string>
+    <string name="export_json_share">Share network (JSON)</string>
+    <string name="export_json_success">JSON exported successfully</string>
+    <string name="export_json_empty">No network to export</string>
+    <string name="import_json_success">Network imported (%d devices, %d connections)</string>
+    <string name="import_json_error">Error importing JSON file</string>
+    <string name="import_json_confirm">Import this network? The current network will be replaced.</string>
+    <string name="export_png_success">PNG image exported</string>
+    <string name="export_png_share">Share network image</string>
+
+    <string name="reset_zoom">Reset zoom</string>
+
+    <string name="menu_filter">Search / Filter</string>
+    <string name="filter_title">Search and filter</string>
+    <string name="filter_search_hint">Search a device…</string>
+    <string name="filter_status">Status</string>
+    <string name="filter_connection_type">Connection type</string>
+    <string name="filter_all">All</string>
+    <string name="filter_clear">Clear filters</string>
+    <string name="filter_result_count">%d matching device(s)</string>
+
+    <string name="menu_language">Langue / Language</string>
+    <string name="language_french">Français</string>
+    <string name="language_english">English</string>
+    <string name="language_changed">Language changed, restarting…</string>
+
+    <string name="navigation_guide_title">Floor Plan Navigation</string>
+    <string name="navigation_guide_scroll">Scroll with two fingers</string>
+    <string name="navigation_guide_zoom">Pinch to zoom in/out</string>
+    <string name="navigation_guide_reset">Button to reset zoom</string>
+    <string name="navigation_guide_got_it">Got it</string>
+</resources>

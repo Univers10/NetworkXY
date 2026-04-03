@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="800dp"
+    android:height="600dp"
+    android:viewportWidth="800"
+    android:viewportHeight="600">
+    
+    <!-- Background -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M0,0 L800,0 L800,600 L0,600 Z" />
+    
+    <!-- Outer walls -->
+    <path
+        android:strokeColor="#333333"
+        android:strokeWidth="8"
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,50 L750,50 L750,550 L50,550 Z" />
+    
+    <!-- Studio room divisions -->
+    <path
+        android:strokeColor="#666666"
+        android:strokeWidth="4"
+        android:pathData="M50,200 L300,200" />
+    
+    <path
+        android:strokeColor="#666666"
+        android:strokeWidth="4"
+        android:pathData="M300,50 L300,550" />
+    
+    <!-- Door -->
+    <path
+        android:strokeColor="#8B4513"
+        android:strokeWidth="3"
+        android:pathData="M650,550 L720,550" />
+    
+    <!-- Window -->
+    <path
+        android:strokeColor="#87CEEB"
+        android:strokeWidth="6"
+        android:pathData="M100,50 L200,50" />
+    
+    <path
+        android:strokeColor="#87CEEB"
+        android:strokeWidth="6"
+        android:pathData="M500,50 L650,50" />
+</vector>

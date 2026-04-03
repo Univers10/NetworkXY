@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1000dp"
+    android:height="700dp"
+    android:viewportWidth="1000"
+    android:viewportHeight="700">
+    
+    <!-- Background -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M0,0 L1000,0 L1000,700 L0,700 Z" />
+    
+    <!-- Outer walls -->
+    <path
+        android:strokeColor="#333333"
+        android:strokeWidth="8"
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,50 L950,50 L950,650 L50,650 Z" />
+    
+    <!-- Interior walls - 3 rooms -->
+    <path
+        android:strokeColor="#666666"
+        android:strokeWidth="4"
+        android:pathData="M350,50 L350,650" />
+    
+    <path
+        android:strokeColor="#666666"
+        android:strokeWidth="4"
+        android:pathData="M650,50 L650,650" />
+    
+    <path
+        android:strokeColor="#666666"
+        android:strokeWidth="4"
+        android:pathData="M50,250 L350,250" />
+    
+    <path
+        android:strokeColor="#666666"
+        android:strokeWidth="4"
+        android:pathData="M650,350 L950,350" />
+    
+    <!-- Doors -->
+    <path
+        android:strokeColor="#8B4513"
+        android:strokeWidth="3"
+        android:pathData="M300,250 L350,250" />
+    
+    <path
+        android:strokeColor="#8B4513"
+        android:strokeWidth="3"
+        android:pathData="M350,350 L400,350" />
+    
+    <path
+        android:strokeColor="#8B4513"
+        android:strokeWidth="3"
+        android:pathData="M600,350 L650,350" />
+    
+    <path
+        android:strokeColor="#8B4513"
+        android:strokeWidth="3"
+        android:pathData="M850,650 L920,650" />
+    
+    <!-- Windows -->
+    <path
+        android:strokeColor="#87CEEB"
+        android:strokeWidth="6"
+        android:pathData="M100,50 L250,50" />
+    
+    <path
+        android:strokeColor="#87CEEB"
+        android:strokeWidth="6"
+        android:pathData="M450,50 L600,50" />
+    
+    <path
+        android:strokeColor="#87CEEB"
+        android:strokeWidth="6"
+        android:pathData="M750,50 L900,50" />
+    
+    <path
+        android:strokeColor="#87CEEB"
+        android:strokeWidth="6"
+        android:pathData="M950,200 L950,350" />
+</vector>
